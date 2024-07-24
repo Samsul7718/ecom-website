@@ -42,15 +42,119 @@
             <img src="images/apple.jpg" width="100%" class="small-img" alt="" />
           </div>
           <div class="small-img-col">
-            <img src="images/apple.jpg" width="100%" class="small-img" alt="" />
+            <img src="images/book.jpg" width="100%" class="small-img" alt="" />
           </div>
           <div class="small-img-col">
-            <img src="images/apple.jpg" width="100%" class="small-img" alt="" />
+            <img src="images/Kiwi-fruit.webp" width="100%" class="small-img" alt="" />
           </div>
           <div class="small-img-col">
-            <img src="images/apple.jpg" width="100%" class="small-img" alt="" />
+            <img src="images/bowl-of-fruit.webp" width="100%" class="small-img" alt="" />
           </div>
         </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6>Home / T-Shirt</h6>
+        <h4>Men's Fashion T Shirt</h4>
+        <h2>$140.00</h2>
+        <select>
+          <option>Select Size</option>
+          <option>XXL</option>
+          <option>XL</option>
+          <option>Large</option>
+          <option>Small</option>
+        </select>
+        <input type="number" value="1" />
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, porro
+          quia ab quasi consequatur rerum voluptas labore, quis amet totam,
+          tempora harum temporibus et dolores quaerat fuga fugiat! Sunt, labore!
+          Omnis necessitatibus ipsam ratione repellendus, adipisci et.
+          Temporibus error nisi, porro deserunt placeat voluptate doloremque
+          sint ex. Aperiam aliquam repudiandae dicta a eum perferendis aliquid
+          nobis? Doloremque eius incidunt magnam!</span
+        >
+      </div>
+    </section>
+     <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>All Collection New Product</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="images/apple.jpg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Apple</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a class="#"
+            ><i class="fa-solid fa-cart-shopping cart"></i></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="images/milk.jpg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Apple</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a class="#"
+            ><i class="fa-solid fa-cart-shopping cart"></i></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="images/raw apple.jpg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Apple</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a class="#"
+            ><i class="fa-solid fa-cart-shopping cart"></i></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="images/nike.png" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Apple</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a class="#"
+            ><i class="fa-solid fa-cart-shopping cart"></i></i
+          ></a>
+        </div>
+      
       </div>
     </section>
 
@@ -120,6 +224,23 @@
       </div>
     </footer>
 
+    <script>
+      var mainImg=document.getElementById('MainImg')
+      var smallImg=document.getElementsByClassName('small-img')
+
+      smallImg[0].onclick=function(){
+        mainImg.src=smallImg[0].src
+      }
+         smallImg[1].onclick=function(){
+        mainImg.src=smallImg[1].src
+      }
+         smallImg[2].onclick=function(){
+        mainImg.src=smallImg[2].src
+      }
+         smallImg[3].onclick=function(){
+        mainImg.src=smallImg[3].src
+      }
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
